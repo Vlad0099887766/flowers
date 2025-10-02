@@ -1,0 +1,238 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4.h5,
+h6,
+p,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+.nav_menu{
+width: 53px;
+height: 24px;
+color: rgba(0, 0, 0, 1);
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+.nav_adres{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.nav_link{
+    display: flex;
+    /* padding-left: 330px;
+padding-right: 330px; */
+gap: 50px;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+}
+.logo{
+   
+width: 72px;
+height: 57px;
+color: rgba(14, 14, 14, 1);
+}
+.phone{
+    /* tel */
+width: 28px;
+height: 28px;
+color: rgba(14, 14, 14, 1);
+
+}
+.heder_flower{
+    /* image_home page */
+width: 390px;
+height: 636px;
+display: flex; 
+align-items: center;
+justify-content: space-between;
+flex-wrap: nowrap;
+}
+.heder_btn{
+    /* btn */
+width: 166px;
+height: 166px;
+}
+.heder_text_one{
+    /* flower studio */
+width: 101px;
+height: 78px;
+color: rgba(0, 0, 0, 1);
+
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+}
+.heder_text_two{
+    /* ANEMONE_logo */
+width: 877px;
+height: 195px;
+color: rgba(0, 0, 0, 1);
+margin-left: 110px;
+font-family: Montserrat;
+font-size: 160px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+position: absolute;
+padding-top: 650px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.flo{
+ position: relative;
+ display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+padding-top: 64px;
+}
+/* .heder_centr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+} */
+ .main_text_one{
+/* ABOUT */
+width: 166px;
+height: 54px;color: rgba(0, 0, 0, 1);
+font-family: Montserrat;
+font-size: 44px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+    padding-top: 100px;
+    
+ }
+ .main_text_one::after{
+    content: "";
+    display: block;
+    width: 1050px;
+    border: 1px solid rgba(0, 0, 0, 1);
+justify-content: space-between;
+
+}
+ .flower_studio{
+ width: 510px;
+  height: 160px; 
+color: rgba(0, 0, 0, 1);
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+display: flex;
+margin-right: -0px ;
+margin-left: -190px;
+
+}
+
+ .main_one{
+    display: flex;
+    padding-top: 100px;
+ }
+ .main_gap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: nowrap; */
+    margin-top: 220px;
+    
+    gap: 90px;
+ }
+ .main_photo{
+    width: 600px;
+height: 542px;
+ }
+ .main_store{
+    width: 154px;
+height: 54px;
+color: rgba(0, 0, 0, 1);
+
+font-family: Montserrat;
+font-size: 44px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .main_store::after{
+    content: "";
+    display: block;
+        width: 1050px;
+    border: 1px solid rgba(0, 0, 0, 1);
+ }
+ .main_name{
+color: rgba(0, 0, 0, 1);
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .main_price{
+color: rgba(0, 0, 0, 1);
+opacity: 0.6;
+
+font-family: Montserrat;
+font-size: 28px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+ }
+
+.main_ul{
+        padding-top: 80px;
+     display: flex;
+  flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 34px;
+}
+ .main_ul_one{
+    flex-basis: calc((100% - 32px) / 2);
+ 
+}
