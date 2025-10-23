@@ -417,3 +417,80 @@ text-align: left;
 	  padding-bottom: 100px;
 	  padding-top: 45px;
 }
+@media (max-width: 756px) {
+	.container-box {
+		width: 100%;
+		padding: 0 20px;
+	}
+
+	.nav_adres {
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.nav_link {
+		/* flex-direction: column; */
+		gap: 20px;
+	}
+
+	.flo {
+		align-items: center;
+		gap: 40px;
+		margin-bottom: 100px;
+	}
+.heder_ctntr {
+  width: 100;
+    height: 336px;
+}
+.heder_btn {
+    width: 90px;
+    height: 90px;
+}
+.heder_text_one {
+    width: 101px;
+    height: 78px;}
+
+	.heder_text_two {
+		font-size: 60px;
+		left: 0;
+		bottom: -40px;
+		margin-left: 220px;
+	}
+
+	.main_gap {
+		flex-direction: column;
+		align-items: center;
+		gap: 40px;
+	}
+
+	.main_photo {
+		width: 100%;
+		height: auto;
+	}
+
+	.main_ul {
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.footer_div {
+		flex-direction: column;
+		align-items: center;
+		gap: 40px;
+		margin-top: 0;
+	}
+
+	.footer_foto {
+		display: none;
+	}
+
+	.mySwiper {
+		max-width: 100%;
+		height: 300px;
+	}
+
+	.swiper-slide-active img {
+		transform: scale(1.1);
+	}
+}
+
